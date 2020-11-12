@@ -1,5 +1,4 @@
-
-body{
+body {
     /* background-color: rgba(38, 0, 56); */
     background-image: url('../../structuredHTML/resource/images/background.jpg');
     background-size: cover;
@@ -10,18 +9,19 @@ body{
     padding: 0%;
 }
 
-.hamburger-div{
+.hamburger-div {
     display: none;
 }
-.hamburger-nav-bar{
-    display:none;
+
+.hamburger-nav-bar {
+    display: none;
 }
 
 
-.nav-container{
+.nav-container {
     background-color: rgb(73, 73, 73);
     position: sticky;
-    top:0;
+    top: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,98 +29,110 @@ body{
     justify-content: space-between;
 
 }
-.nav-bar{
+
+.nav-bar {
     margin-top: 1%;
-    width: 80%;
+    width: 90%;
+    height: 10vh;
     display: flex;
     justify-content: right;
-
-}
-.nav-item{
-    display: inline;
-    margin-right: 20px;
+    align-items: center;
 }
 
-.nav-container a{
-    color:  white;
+.nav-item {
+    margin-right: 5%;
+}
+
+
+.nav-container a {
+    color: white;
     background-color: transparent;
     text-decoration: none;
-    
-  }
 
-.nav-container a:hover{
+}
+
+.nav-container a:hover {
     border-bottom: 1px solid rgb(241, 211, 255);
 }
-.logo{
+
+.logo {
     margin-left: 1%;
     width: 8%;
     text-align: center;
 }
 
-.logo-img{
+.logo-img {
     width: 50px;
     height: auto;
 }
 
-.banner{
+.banner {
     /* background-image: url(../resource/images/banner.jpg); */
     background-color: rgb(29, 29, 29, 0.8);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     height: 100vh;
-    
+
 }
-.banner-container{
-    height: 100%;    
+
+.banner-container {
+    height: 100%;
 }
-.banner-details{
+
+.banner-details {
     display: flex;
     height: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;    
+    align-items: stretch;
 }
-.banner-img{
+
+.banner-img {
+    background-image: url('../resource/images/profile.jpeg');
+    background-size: cover;
     width: 40%;
-    height: auto;
-}
-.banner-img img{
+    height: 80%;
     border-radius: 50%;
 }
-.banner-items{
+
+
+.banner-items {
+    align-self: center;
     width: 40%;
     height: auto;
 }
-.banner-items a{
+
+.banner-items a {
     color: rgb(241, 211, 255);
 }
 
-.box{
+.box {
     background-color: rgb(29, 29, 29, 0.8);
 }
 
-footer{
+footer {
     background-color: rgb(29, 29, 29);
-    border:1px solid white;
+    border: 1px solid white;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1%;   
+    margin: 1%;
 }
 
-.footer-links a{
+.footer-links a {
     color: rgb(241, 211, 255);
 }
 
-section{
+section {
     padding: 4% 0%;
     margin: 1% 10%;
     height: 100%;
-    background-color: rgb(241, 211, 255,0.5);
+    background-color: rgb(241, 211, 255, 0.5);
     color: rgb(29, 29, 29);
     /* background-image: url('../resource/images/company.jpg');
     background-size: cover;
@@ -128,7 +140,7 @@ section{
     background-position: center; */
 }
 
-section h3{
+section h3 {
     text-align: center;
     font-weight: 900;
     font-size: 40px;
@@ -136,36 +148,39 @@ section h3{
 
 }
 
-.section-content{
+.section-content {
     height: 100%;
     width: 80%;
-    
+
 }
 
-.section-details{
+.section-details {
     margin-left: 10%;
     height: 100%;
     width: 100%;
 }
 
-aside{
+aside {
     margin: 1% 10%;
     background-color: rgb(29, 29, 29, 0.8);
     border: 1px solid rgb(241, 211, 255);
     text-align: center;
 }
-.aside-content li{
+
+.aside-content li {
     margin-top: 10px;
 }
-.links{
+
+.links {
     color: rgb(29, 29, 29);
     background-color: yellow;
 }
-main{
+
+main {
     position: relative;
 }
 
-.top{
+.top {
     position: sticky;
     top: 80vh;
     text-align: right;
@@ -175,7 +190,7 @@ main{
     bottom: 10px; */
 }
 
-.top img{
+.top img {
     width: 5vw;
     height: auto;
     border: none;
@@ -183,29 +198,34 @@ main{
     background-color: rgb(241, 211, 255);
 }
 
-.top a{
-    display:inline;
+.top a {
+    display: inline;
     margin-right: 4%;
     color: white;
 }
-.conclusion-details{
+
+.conclusion-details {
     text-align: center;
 }
-.section-details li{
+
+.section-details li {
     margin-bottom: 10%;
 }
 
-@media (max-width: 768px){
-    .nav-bar{
+@media (max-width: 768px) {
+    .nav-bar {
         display: none;
     }
-    .hamburger-div{
+
+    .hamburger-div {
         display: block;
     }
-    .hamburger-div:hover .hamburger-nav-bar{
+
+    .hamburger-div:hover .hamburger-nav-bar {
         display: block;
     }
-    .hamburger{
+
+    .hamburger {
         margin-right: 2%;
         border: 1px solid white;
         height: 50px;
@@ -217,30 +237,33 @@ main{
         align-items: center;
         position: relative;
     }
-    
-    .hamburger-lines{
+
+    .hamburger-lines {
         width: 80%;
         border: 1px solid white;
     }
-    
-    .hamburger:hover .hamburger-lines{
+
+    .hamburger-div:hover .hamburger-lines {
         position: absolute;
         transition-property: transform;
         transition-duration: 2s;
         transition-timing-function: linear;
-        
+
     }
-    .hamburger:hover .line1{
+
+    .hamburger-div:hover .line1 {
         transform: rotate(45deg);
     }
-    .hamburger:hover .line3{
+
+    .hamburger-div:hover .line3 {
         transform: rotate(-45deg);
     }
-    .hamburger:hover .line2{
+
+    .hamburger-div:hover .line2 {
         display: none;
     }
 
-    .section-content{
+    .section-content {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -248,34 +271,37 @@ main{
         align-items: center;
         height: 50vh;
     }
-    
-    .section-details{
+
+    .section-details {
         margin-left: 10%;
         height: auto;
         width: 100%;
         overflow-y: scroll;
         overflow-x: hidden;
     }
-    .banner{
-        height: 100vh;
-     }
-    .banner-details{
+
+    .banner {
+        height: auto;
+    }
+
+    .banner-details {
         flex-direction: column;
         height: 100%;
+        align-items: center;
     }
-    .banner-img{
-        width: 80%;
-        height: 40%;
+
+    .banner-img {
+        width: 40%;
+        height: 40vh;
     }
-    .banner-img img{
-        border-radius: 50%;
-    }
-    .banner-items{
+
+    .banner-items {
         width: 80%;
         height: 50%;
+        text-align: center;
     }
 }
 
-.border{
+.border {
     border: 1px solid rgb(241, 211, 255);
 }
