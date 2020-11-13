@@ -7,6 +7,7 @@ body {
     color: rgb(241, 211, 255);
     margin: 0%;
     padding: 0%;
+    scroll-behavior: smooth;
 }
 
 .hamburger-div {
@@ -267,12 +268,21 @@ main {
         height: 50vh;
     }
 
-    .section-details {
-        margin-left: 10%;
+    .objectives {
         height: auto;
-        width: 100%;
+    }
+
+    .scroll {
+        scroll-behavior: smooth;
         overflow-y: scroll;
         overflow-x: hidden;
+
+    }
+
+    .section-details {
+        margin-left: 10%;
+        height: 100%;
+        width: 100%;
     }
 
     .banner {
